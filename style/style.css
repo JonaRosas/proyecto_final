@@ -44,19 +44,16 @@ body {
 .main-style {
     margin: 20px;
     padding: 10px;
+    display: flex;
 
 }
 
 .main-titule {
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
-    float: left;
 }
 
 .main-body {
-    clear: left;
-    display: flex;
-    flex-direction: row;
     height: 1000px;
     width: 50%;
 }
@@ -65,6 +62,7 @@ body {
     height: 1000px;
     width: 800px;
     overflow: hidden;
+    float: right;
 }
 
 /* GALERIA */
@@ -91,8 +89,9 @@ body {
 
 }
 
-footer {
+.footer_flex {
     background-color: #0BB3D9;
     text-align: center;
     clear: left;
+    display: flex;
 }
