@@ -67,14 +67,16 @@ body {
   background-color: #0BB3D9;
   text-align: center;
   clear: left;
-  display: flex; }
+  display: flex;
+  padding: 15px; }
   .footer_flex .footer_text {
     width: 75%;
     justify-content: center;
     margin: 10px; }
   .footer_flex .footer_icon {
     width: 25%;
-    align-content: center; }
+    align-content: center;
+    margin: 20px; }
     .footer_flex .footer_icon a {
       margin: 20px;
       padding: 5px; }
