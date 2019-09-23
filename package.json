@@ -1,0 +1,30 @@
+{
+    "name": "proyecto_final",
+    "version": "1.0.0",
+    "description": "proyecto coder",
+    "main": "index.js",
+    "scripts": {
+        "test": "test",
+        "build-css": "node-sass --include-path scss scss/style.scss scss/style.css",
+        "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JonaRosas/proyecto_final.git"
+    },
+    "keywords": [
+        "proyecto",
+        "final",
+        "coder"
+    ],
+    "author": "Jonathan Rosas",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JonaRosas/proyecto_final/issues"
+    },
+    "homepage": "https://github.com/JonaRosas/proyecto_final#readme",
+    "dependencies": {
+        "node-sass": "^4.12.0",
+        "nodemon": "^1.19.2"
+    }
+}
