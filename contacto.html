@@ -1,78 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sp">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Ed Sheeran-Contacto</title>
-    <link rel="stylesheet" href="scss/style.css">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Ed Sheeran - CONTACTO</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="scss/style.css">
 
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
 
-            <a href="index.html">HOME</a>
-            <a href="#">DISCOGRÁFIA</a>
-            <a href="#">TOUR</a>
-            <a href="galeria.html">GALERIA</a>
-            <a href="contacto.html">CONTACTO</a>
-
-        </nav>
-    </header>
-
-    <body>
-        <div class="contact_main">
-           <div class="contact_text">
-            <h2 class="contact-titule">Contacto</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas dignissimos nemo laborum, inventore iure nam, quidem at hic quam atque. Officiis illum, nesciunt eum error omnis, nisi voluptatum veritatis nihil?</p>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar_style">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">ED SHEERAN</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TOUR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">DISCOGRÁFIA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">GALERIA</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contacto.html">CONTACTO
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="contact_form">
-            <form action="">
-                <fieldset>
-                        <legend>Informacion Personal</legend>
-                        <div>Sexo</div>
-                        <input type="radio" name="sexo" value="hombre"> Hombre
-                        <input type="radio" name="sexo" value="hombre"> Mujer
+    </nav>
+
+    <!-- Contenido -->
+    <div class="container pt-3 body_style">
+        <div class="row mt-5">
+            <div class="col-12 col-md-8 col-lg-8 text-left">
+                <h2 class="mt-5">Contacto</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga iure, consectetur totam delectus facilis voluptatem expedita quaerat, recusandae nihil officiis dolorum optio debitis iste alias quia maiores neque facere dolores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ex quod dolorum, a. Dolorum exercitationem animi est laborum rerum omnis facilis, recusandae, impedit fugit consequuntur, labore maxime reiciendis, velit aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis aspernatur enim dignissimos accusamus commodi sed ipsa reiciendis hic tempore quos rerum doloribus, ea adipisci! Voluptate explicabo blanditiis et in eum. </p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 mt-5">
+                <form action="" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Nombre</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Tú Nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Tú email de contacto">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ingresa el mensaje que nos quieras dejar"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
 
 
-                        <div>Nombre</div>
-                        <label for="nombre"></label>
-                        <input type="text" name="nombre" value="Nombre">
-                        <div>Apellido</div>
-                        <label for="apellido"></label>
-                        <input type="text" name="apellido" value="Apellido">
-
-                        <div>Email</div>
-                        <label for="email"></label>
-                        <input type="text" name="email" value="Email">
-
-                        <div>Comentarios</div>
-                        <textarea name="comentarios">Escribe aquí tus comentarios</textarea>
-                        <br>
-                        <div>
-                            <input type="submit" name="Enviar Formulario">
-                            <input type="reset" name="Limpiar Formulario">
-                        </div>
-
-                    </fieldset>
-            </form>
-        </div>
+            </div>
         </div>
 
-    </body>
-    <footer class="footer_flex">
-        <div class="footer_text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus est delectus odit repellat facilis. Molestiae reprehenderit nemo doloribus velit! Eos dolorem porro, nesciunt! Sunt, dicta omnis soluta fuga praesentium sequi.</p>
-        </div>
-        <div class="footer_icon">
-            <a href="https://www.facebook.com/EdSheeranMusic/"><img src="image/icon/facebook.png" alt="FACEBOOK"></a>
-            <a href="https://www.youtube.com/user/EdSheeran?hl=en-GB&gl=GB"><img src="image/icon/youtube.png" alt="YOUTUBE"></a>
-            <a href="https://www.instagram.com/teddysphotos/"><img src="image/icon/instagram.png" alt="INSTAGRAM"></a>
+    </div>
+    <footer class="footer fixed-bottom footer_style">
+        <div class="container">
+            <div class="row p-5">
+                <div class="col-12 col-md-8 col-md-8 text-left">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus est delectus odit repellat facilis. Molestiae reprehenderit nemo doloribus velit! Eos dolorem porro, nesciunt! Sunt, dicta omnis soluta fuga praesentium sequi.</p>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 text-center">
+                    <a href="https://www.facebook.com/EdSheeranMusic/"><img src="image/icon/facebook.png" alt="FACEBOOK"></a>
+                    <a href="https://www.youtube.com/user/EdSheeran?hl=en-GB&gl=GB"><img src="image/icon/youtube.png" alt="YOUTUBE"></a>
+                    <a href="https://www.instagram.com/teddysphotos/"><img src="image/icon/instagram.png" alt="INSTAGRAM"></a>
+                </div>
+            </div>
         </div>
     </footer>
 
-    </html>
+    <!-- JavaScript -->
+    <script src="vendor/jquery/jquery.slim.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body></html>
