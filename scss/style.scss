@@ -8,12 +8,13 @@
     border-bottom: 3p solid white;
     transition: 0.3s;
 }
+
 body {
-    background-color: #262626;
+    background-color: black;
 }
 
 .body_style {
-    background-color: #262626;
+    background-color: black;
     color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
@@ -29,6 +30,20 @@ h2 {
     font-size: 40px;
 }
 
+.navbar_style ul li {
+
+    a:hover {
+        color: blue !important;
+        border-bottom: 1px solid white;
+    }
+
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+
+}
+
 .footer_style {
     background-color: #0BB3D9;
     color: white;
@@ -39,57 +54,6 @@ h2 {
     margin: 2%;
 }
 
-/* GALERIA */
-
-.galery {
-    display: flex;
-    flex-direction: row;
-    margin: 25px;
-    text-align: center;
-
-    .galery-img {
-        height: 500px;
-        width: 800px;
-        overflow: hidden;
-        padding: 30px;
-
-    }
-
-    .galery-titule {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 30px;
-        margin: 20px;
-
-    }
-}
-
-
-
-.footer_flex {
-    background-color: #0BB3D9;
-    text-align: center;
-    clear: left;
-    display: flex;
-    padding: 15px;
-
-    .footer_text {
-        width: 75%;
-        justify-content: center;
-        margin: 10px;
-    }
-
-    .footer_icon {
-        width: 25%;
-        align-content: center;
-        margin: 20px;
-
-
-        a {
-            margin: 20px;
-            padding: 5px;
-        }
-    }
-}
 
 /* CONTACTO */
 
