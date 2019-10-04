@@ -54,7 +54,32 @@ h2 {
     margin: 2%;
 }
 
+/* Efecto parallax */
 
+.parallax {
+  /* The image used */
+  background-image:url(../image/galery/galeria_1.jpg);
+
+  /* Set a specific height */
+  height: 350px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* TOUR*/
+
+.list-group-horizontal {
+    opacity:0 !important;
+}
+.tour_style {
+    font-size: 20px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
 /* CONTACTO */
 
 .contact_main {
