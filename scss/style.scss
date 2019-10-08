@@ -33,7 +33,7 @@ h2 {
 .navbar_style ul li {
 
     a:hover {
-        color: blue !important;
+        color: #025373 !important;
         border-bottom: 1px solid white;
     }
 
@@ -57,29 +57,41 @@ h2 {
 /* Efecto parallax */
 
 .parallax {
-  /* The image used */
-  background-image:url(../image/galery/galeria_1.jpg);
+    /* The image used */
+    background-image: url(../image/galery/galeria_1.jpg);
 
-  /* Set a specific height */
-  height: 350px;
+    /* Set a specific height */
+    height: 350px;
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* TOUR*/
 
 .list-group-horizontal {
-    opacity:0 !important;
+    opacity: 0 !important;
 }
+
 .tour_style {
     font-size: 20px;
     color: black;
     font-family: 'Raleway', sans-serif;
 }
+
+.btn {
+    font-size: 20px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.list_style {
+    background-color:black;
+}
+
 /* CONTACTO */
 
 .contact_main {
