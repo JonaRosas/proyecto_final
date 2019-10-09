@@ -42,7 +42,7 @@ h2 {
 /* Efecto parallax */
 .parallax {
   /* The image used */
-  background-image: url(../image/galery/galeria_1.jpg);
+  background-image: url(../image/galery/world_tour.jpg);
   /* Set a specific height */
   height: 350px;
   /* Create the parallax scrolling effect */
@@ -52,21 +52,32 @@ h2 {
   background-size: cover; }
 
 /* TOUR*/
-.list-group-horizontal {
-  opacity: 0 !important; }
+.list-group-item {
+  background-color: black;
+  font-size: 20px; }
 
-.tour_style {
-  font-size: 20px;
-  color: black;
-  font-family: 'Raleway', sans-serif; }
+.btn-primary {
+  background-color: #0BB3D9 !important; }
 
-.btn {
-  font-size: 20px;
-  color: white;
-  font-family: 'Raleway', sans-serif; }
+.btn-primary:hover {
+  background-color: #025373 !important;
+  transition: 0.5s; }
 
-.list_style {
-  background-color: black; }
+/* GALERIA */
+.obj_flex {
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%;
+  position: relative; }
+
+.obj_flex iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%; }
 
 /* CONTACTO */
 .contact_main {
